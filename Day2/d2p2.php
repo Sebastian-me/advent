@@ -11,7 +11,7 @@ class d2p2
     private const FORWARD = 'forward';
     private const DOWN = 'down';
 
-    public function move(string $input)
+    public function move(string $input): int
     {
         foreach (explode(PHP_EOL, $input) as $item) {
 
